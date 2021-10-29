@@ -1,0 +1,147 @@
+.navbar a {
+	display: inline;
+	color: black;
+}
+
+.navbar {
+	position: absolute;
+	top: 0; left: 0;
+	width: 99vw;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	background-color: rgba(58,70,188,.5);
+}
+
+.navbar > * { padding: .5rem 0; }
+
+#last-elem-nav { margin-right: 1vw; }
+
+.nav-label {
+	padding-left: 1rem; padding-right: 1rem;
+	font-family: "Reza Zulmi Alfaizi Sans";
+	font-size: 2rem;
+	
+	position: relative;
+}
+
+/* Home Button */
+
+#nav-home {
+	display: flex;
+	margin-left: .8rem;
+}
+
+#nav-icon {	
+	background-color: white;
+	border-radius: .3rem;
+	height: 2.5rem;
+	
+	transform: rotate(0deg);
+	transition: transform 1s;
+	z-index: 2;
+}
+
+a:hover > #nav-icon {
+	transform: rotate(360deg);
+}
+
+#nav-icon-lbl {
+	margin-left: .8rem;
+	color: rgba(0,0,0,1.00);
+	font-family: "Courier Prime Code";
+	font-size: 2rem;
+	
+	transform: translateX(-100rem);
+	transition: transform .5s,
+				color .5s;
+	z-index: 1;
+}
+
+a:hover > #nav-icon-lbl {
+	transform: translateX(0);
+	color: rgba(0,0,0,1)
+}
+
+/* Dropdown Lists */
+
+.dropdown-cap {
+	cursor: pointer;
+}
+
+.dropdown-cap::after {
+	font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f078";
+	font-size: 1.5rem;
+	display: inline-block;
+}
+
+.nav-label:hover {
+	background-color: rgba(58,70,188,.7);
+}
+
+.dropdown-list {
+	display: none;
+	
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	
+	font-family: "Consolate Elf";
+	font-size: 1.7rem;
+	border: medium solid black;
+	
+	background-color: rgba(58,70,188,.7);
+}
+
+.dropdown-list li {
+	padding: .5rem 0;
+	
+	border-width: thin 0;
+	border-color: black;
+	border-style: solid;
+	
+	position: relative;
+}
+
+.dropdown-list li:first-child { border-top-style: none; }
+.dropdown-list li:last-child { border-bottom-style: none; }
+
+.dropdown-list li:hover {
+	background-color: rgba(58,70,188,1);
+}
+
+.dropdown-cap:hover > .dropdown-list {
+	display: block;
+}
+
+/* Dropdown Sublist */
+
+.dropdown-sublist {
+	display: none;
+	
+	position: absolute;
+	top: -2%;
+	left: 100%;
+	
+	font-size: 1.2rem;
+
+	background-color: rgba(58,70,188,.7);
+	
+	border: medium solid black;
+}
+
+.dropdown-sublist-cap::after {
+	font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054";
+	font-size: 1rem;
+	
+	position: absolute;
+	right: 0;
+	top: 38%;
+}
+
+.dropdown-sublist-cap:hover > .dropdown-sublist {
+	display: block;
+}

@@ -1,1 +1,74 @@
-Hello World!
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="static/css/fonts.css">
+	<link rel="stylesheet" href="static/css/animation.css">
+	<link rel="stylesheet" href="static/css/styles.css">
+	<link rel="stylesheet" href="static/css/navbar.css">
+	<link rel="stylesheet" href="static/fontawesome/css/all.css">
+</head>
+
+<body>
+	<nav class="navbar">
+		<a id="nav-home" href="./index.html">
+			<img id="nav-icon" src="static/icon/l-plate.png" alt="">
+			<div id="nav-icon-lbl">Leamich</div>
+		</a>
+		<div id="first-lbl-nav" class="nav-label dropdown-cap">
+			<a href="#">Конспекты</a>
+			<ul class="dropdown-list">
+				<li class="dropdown-sublist-cap">Гуманитарные
+					<ul class="dropdown-sublist">
+						<li><a href="#">Русский язык</a></li>
+						<li><a href="#">Литература</a></li>
+						<li><a href="#">Право</a></li>
+						<li><a href="#">Художества</a></li>
+					</ul>
+				</li>
+				<li class="dropdown-sublist-cap">Технические
+					<ul class="dropdown-sublist">
+						<li><a href="#">WEB</a></li>
+						<li><a href="#">Синтаксис</a></li>
+						<li><a href="#">Алгоритмы</a></li>
+						<li><a href="#">Математика</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Прочее</a></li>
+			</ul>
+		</div>
+		<div class="nav-label dropdown-cap">
+			Must See
+			<ul class="dropdown-list">
+				<li><a href="#">Фильмы</a></li>
+				<li><a href="#">Документалки</a></li>
+				<li><a href="#">Сериалы</a></li>
+				<li class="dropdown-sublist-cap"><a href="#">Книги</a>
+					<ul class="dropdown-sublist">
+						<li>Художественные</li>
+						<li>Нонфикшн</li>
+					</ul>
+				</li>
+				<li><a href="#">Игры</a></li>
+			</ul>
+		</div>
+		<div class="nav-label"><a href="#">Заметки</a></div>
+		<div class="nav-label"><a href="#">Проекты</a></div>
+		<div id="last-elem-nav"></div>
+	</nav>
+	
+	<div id="hello-message">
+		<div></div>
+		Hello, World!
+		<a id="arrow-down-lnk" href="#content-begin">
+			<img id="arrow-down" src="static/icon/arrow-down.png" alt="">
+		</a>
+	</div>
+	
+	<main id="content-begin">
+		<div class="center-card">
+			<h1>About</h1>
+			Этот сайт создан для кодификации знаний о самых разных сферах науки и творчества. Здесь вы сможете найти также рекомендации к просмотру и чтению. 
+		</div>
+	</main>
+</body>
+</html>

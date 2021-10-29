@@ -1,0 +1,68 @@
+/* Consola Mono */
+
+@font-face {
+	font-family: "Consola Mono";
+	font-style: normal;
+	font-weight: bold;
+	src: url("../font/ConsolaMono-Bold.ttf");
+}
+
+@font-face {
+	font-family: "Consola Mono";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../font/ConsolaMono.ttf");
+}
+
+/* Courier Prime Code */
+
+@font-face {
+	font-family: "Courier Prime Code";
+	font-style: italic;
+	font-weight: normal;
+	src: url("../font/Courier Prime Code Italic.ttf");
+}
+
+@font-face {
+	font-family: "Courier Prime Code";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../font/Courier Prime Code.ttf");
+}
+
+/* Reza Zulmi Alfaizi Sans */
+
+@font-face {
+	font-family: "Reza Zulmi Alfaizi Sans";
+	src: url("../font/RezaZulmiSans.ttf");
+}
+
+/* Consolate Elf */
+
+@font-face {
+	font-family: "Consolate Elf";
+	src: url("../font/ConsolateElf.ttf");
+}
+
+/* ZenKakiGothicAntique */
+
+@font-face {
+	font-family: "ZenKakuGothicAntique";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../font/ZenKakuGothicAntique-Regular.ttf");
+}
+
+@font-face {
+	font-family: "ZenKakuGothicAntique";
+	font-style: normal;
+	font-weight: bold;
+	src: "normal", url("../font/ZenKakuGothicAntique-Bold.ttf");
+}
+
+@font-face {
+	font-family: "ZenKakuGothicAntique";
+	font-style: normal;
+	font-weight: lighter;
+	src: "normal", url("../font/ZenKakuGothicAntique-Light.ttf");
+}
